@@ -1,0 +1,30 @@
+{
+  "store.custom#intitutional": {
+    "blocks": [
+      "flex-layout.row#title-intitutional",
+      "flex-layout.row#content-intitutional"
+    ]
+  },
+  "flex-layout.row#title-intitutional": {
+    "children": [
+      "rich-text#title-intitutional"
+    ]
+  },
+  "rich-text#title-intitutional": {
+    "props": {
+      "text": "[Título da página]",
+      "blockClass": "title-intitutional"
+    }
+  },
+  "flex-layout.row#content-intitutional": {
+    "children": [
+      "rich-text#content-intitutional"
+    ]
+  },
+  "rich-text#content-intitutional": {
+    "props": {
+      "text": "[Conteúdo da página]",
+      "blockClass": "content-intitutional"
+    }
+  }
+}

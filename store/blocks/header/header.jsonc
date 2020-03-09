@@ -1,0 +1,184 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      // "header-row#1-desktop",
+      "header-row#2-desktop"
+    ]
+  },
+  "header-row#1-desktop":{
+    "children":[
+      "header-spacer",
+      "rich-text#card-fe",
+      "rich-text#stores",
+      "rich-text#contact",
+      "rich-text#btn-howToBuy"
+    ],
+    "props":{
+      "blockClass":"header-lineOne"
+    }    
+  },
+  "rich-text#card-fe":{
+    "props":{
+      "text":"cartão F&E: 4004 0127",
+      "blockClass":"contact-header"
+    }
+  },
+  "rich-text#stores":{
+    "props":{
+      "text":"nossas lojas",
+      "blockClass":"contact-header"
+    }
+  },  
+  "rich-text#contact":{
+    "props":{
+      "text":"atendimento",
+      "blockClass":"contact-header"
+    }
+  },   
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOGIN",
+      "accessCodeTitle": "Receber código",
+      "emailPraceholder": "E-mail",
+      "passwordPlaceholder": "Senha",
+      "showPasswordVerificationIntoTooltip": true,
+      "blockClass":"login-desktop"
+    }
+  },  
+  "rich-text#btn-howToBuy":{
+    "props":{
+      "text":"Veja aqui como comprar sua arma de fogo",
+      "blockClass":"btn-howToBuy"
+    }
+  },
+  "header-row#2-desktop":{
+    "children":[
+      "logo#desktop",
+      "header-spacer",
+      "category-menu",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props":{
+      "sticky": true,
+      "blockClass":"header-primary"
+    }  
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/logo___17aac4a474afc9c128dd1b6c905a02e4.png",
+      "blockClass":"logo-desktop"
+    }
+  },  
+  "category-menu":{
+    "props": {
+      "showPromotionCategory": false,
+      "showGiftCategory": false,
+      "showAllDepartments": false,
+      "showSubcategories": false,
+      "menuDisposition": "left",
+      "blockClass":"menu-desktop"
+    }    
+  },
+  "search-bar":{
+    "props":{
+      "placeholder": "Buscar",
+      "hasIconRight":false,
+      "maxWidth": "400px"
+    }
+  },
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "Carrinho vazio",
+      "labelButtonFinishShopping": "Ir para o checkout",
+      "iconLabel":"",
+      "showTotalItemsQty":true,
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "label-minicart tst-minicart",
+      "iconClasses":"miniCart-icon"
+    }
+  },    
+
+  // Mobile
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#-mobile-contact",
+      "header-row#1-mobile",
+      "header-row#search-bar"
+    ]
+  },
+  "header-row#-mobile-contact":{
+    "children":[      
+      "rich-text#card-fe"      
+    ],
+    "props":{
+      "inverted":true
+    }
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      // "menu#drawer"
+      // "category-menu#mobile",
+      "vtex.menu@2.x:menu#footer-mobile"
+      // "vtex.menu@2.x:menu#menumobile"
+    ]
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Brasil Tática | Armas e Acessórios",
+      "href": "/",
+      "url": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo-header___a2fdf2d3cf5381f93bb641f2030fadd2.png",
+      "width": "190",
+      "heigth": "120"
+    }
+  },
+  // Header 2
+  "header-row#search-bar":{
+    "children":[
+      "search-bar"      
+    ],
+    "props":{
+      "blockClass":"content-searchBar"
+    }
+  }  
+}

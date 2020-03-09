@@ -1,0 +1,40 @@
+.container{margin:3em 0;}
+.title{font-weight: 100;color:#8a8a8a;font-size: 1.5em;padding:1rem 0;font-family: 'Raleway';}
+.slide--shelf-featured .nameContainer,
+.slide--shelf-table .nameContainer{font-weight: bold;}
+/* Tabs shelf */
+.title--shelf-table,
+.title--shelf-special{display:none;}
+
+/* Special */
+.sliderContainer--shelf-special{padding: 0em 1em;}
+.container--shelf-featured,
+.container--shelf-special{padding-bottom:0;}
+.arrowLeft--shelf-special{
+    position: absolute;
+    bottom: -2.6em;
+    left: 44%;
+    top: inherit;    
+}
+.arrowRight--shelf-special{
+    position: absolute;
+    bottom: -2.6em;
+    right: 44%;
+    top: inherit;    
+}
+
+.slide--shelf-week{
+    width:25% !important;
+}
+
+@media only screen and (min-width: 40em){
+    .container--shelf-featured .title{
+        padding: 0 0 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 80em){
+    .container--shelf-featured{
+        padding-bottom: 2em;
+    }
+}

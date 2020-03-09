@@ -1,0 +1,10 @@
+.cashContainer--cash-discount{
+    padding: 0;
+    justify-content: left;
+    text-align: left;
+}
+
+.cashNumber--cash-discount{
+    font-size: .7em;
+    color: #A6121F;
+}

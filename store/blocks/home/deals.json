@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals1": {
+    "children": [
+      "rich-text#deal1"
+    ]
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "![frete grátis](https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/icon-entrega___922047ac3dbee18882a1f93dd14b5537.jpg 'Entrega para todo o Brasil') <span>Frete grátis para<span>todo o Brasil</span></span>",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "rich-text#deal2"
+    ]
+  },  
+  "rich-text#deal2": {
+    "props": {
+      "text": "![pagamento facilitado](https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/icon-telefone___4b2b1259f1a8cc009788847ce38c6936.jpg 'Pagamento facilitado') <span>0800-333-55<span>08:00 - 18:00</span></span>",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "rich-text#deal3"
+    ]
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "![Qualidade garantida](https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/icon-dinheiro___603b41d100fed669f5b66ce9b2d1ef00.jpg 'Qualidade garantida') <span>Dinheiro de volta garantido<span><span>30 dias para estornar a compra</span></span>",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "rich-text#deal4"
+    ]
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "![Compra segura](https://brasiltatica.vteximg.com.br/arquivos/lock.png 'Compra 100% segura') Compra 100% segura",
+      "blockClass": "deals"
+    }
+  }
+}

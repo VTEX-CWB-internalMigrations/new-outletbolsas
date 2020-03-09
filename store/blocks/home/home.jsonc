@@ -1,0 +1,621 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#main",
+      "flex-layout.row#deals",
+      "flex-layout.row#title-banners-segmented",
+      "flex-layout.row#menu-segmented",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "shelf#home",
+      "flex-layout.row#banner-featured",      
+      "shelf#home2",
+      // "shelf#home3",
+      // "shelf#home4",
+      // "flex-layout.row#banners-segmented",      
+      // "flex-layout.row#banners-special",      
+      // "flex-layout.row#shelf-special",
+     //  "flex-layout.row#bannerMiddle-row",
+      // "flex-layout.row#featured1-grid",
+      // "flex-layout.row#featured2-grid",
+      // "flex-layout.row#featured3-grid",
+      // "flex-layout.row#featured4-grid",
+      "flex-layout.row#titleFeed",
+      "flex-layout.row#feedInstagram"
+    ]
+  },
+
+  // Caroussel
+  "carousel#main": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/000___17d156c4033b1508f957a6bdd26ea102.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }, 
+        {
+          "image": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/003___ace412eac441602a2fc98f85f926a77b.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },         
+        {
+          "image": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/001___1e032f5ca2ec3b7451a9dc676b2c0891.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/002___4ae1c3dda964e21838ff452e63813370.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ],
+      "height": 550,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "flex-layout.row#title-banners-segmented":{
+    "children":[
+      "rich-text#title-bannerSegmented"
+    ]
+  },
+  "rich-text#title-bannerSegmented":{
+    "props":{
+      "text":"Navegue por departamento",
+      "blockClass":"title"
+    }
+  },
+  "flex-layout.row#menu-segmented":{
+    "children":[
+      "flex-layout.col#menu-segmented01",
+      "flex-layout.col#menu-segmented02",
+      "flex-layout.col#menu-segmented03",
+      "flex-layout.col#menu-segmented04",
+      "flex-layout.col#menu-segmented05",
+      "flex-layout.col#menu-segmented06"
+    ],
+    "props":{
+      "blockClass":"custom-navigation"
+    }
+  },
+  "flex-layout.col#menu-segmented01":{
+    "children":[
+      "image#img-menu-segmented01",
+      "rich-text#title-menu-segmented01"
+    ],
+    "props":{
+      "blockClass":"menu-segmented"
+    }
+  },
+  "image#img-menu-segmented01":{
+    "props":{
+     "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/pulseira___03f689b2ad85b9544575c3c223c8fa44.png",
+     "link":"/"
+    }
+  },
+  "rich-text#title-menu-segmented01":{
+    "props":{
+      "text":"[Pulseiras](/pulseiras)",
+      "blockClass":"style-title-menuSegmented"
+    }
+  },
+  "flex-layout.col#menu-segmented02":{
+    "children":[
+      "image#img-menu-segmented02",
+      "rich-text#title-menu-segmented02"
+    ],
+    "props":{
+      "blockClass":"menu-segmented"
+    }    
+  },
+  "image#img-menu-segmented02":{
+    "props":{
+     "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/camisetas___7754e8337711409c465fa072372d10ea.png",
+     "link":"/"
+    }
+  },
+  "rich-text#title-menu-segmented02":{
+    "props":{
+      "text":"[Camisetas](/camisetas)",
+      "blockClass":"style-title-menuSegmented"
+    }
+  },
+  "flex-layout.col#menu-segmented03":{
+    "children":[
+      "image#img-menu-segmented03",
+      "rich-text#title-menu-segmented03"
+    ],
+    "props":{
+      "blockClass":"menu-segmented"
+    }    
+  },
+  "image#img-menu-segmented03":{
+    "props":{
+     "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/oculos___65b64ab6e0eaa337445ebb4f2c0cd606.png",
+     "link":"/"
+    }
+  },
+  "rich-text#title-menu-segmented03":{
+    "props":{
+      "text":"[Óculos](/oculos)",
+      "blockClass":"style-title-menuSegmented"
+    }
+  },
+  "flex-layout.col#menu-segmented04":{
+    "children":[
+      "image#img-menu-segmented04",
+      "rich-text#title-menu-segmented04"
+    ],
+    "props":{
+      "blockClass":"menu-segmented"
+    }    
+  },
+  "image#img-menu-segmented04":{
+    "props":{
+     "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/calca___31f0efe6a6e7d0280f5374137313d39e.png",
+     "link":"/"
+    }
+  },
+  "rich-text#title-menu-segmented04":{
+    "props":{
+      "text":"[Calças](/calcas)",
+      "blockClass":"style-title-menuSegmented"
+    }
+  },  
+  "flex-layout.col#menu-segmented05":{
+    "children":[
+      "image#img-menu-segmented05",
+      "rich-text#title-menu-segmented05"
+    ],
+    "props":{
+      "blockClass":"menu-segmented"
+    }    
+  },
+  "image#img-menu-segmented05":{
+    "props":{
+     "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/anel___7e5c1b0ec5cdec3f613f3f517264bb21.png",
+     "link":"/"
+    }
+  },
+  "rich-text#title-menu-segmented05":{
+    "props":{
+      "text":"[Anéis](/aneis)",
+      "blockClass":"style-title-menuSegmented"
+    }
+  },   
+  "flex-layout.col#menu-segmented06":{
+    "children":[
+      "image#img-menu-segmented06",
+      "rich-text#title-menu-segmented06"
+    ],
+    "props":{
+      "blockClass":"menu-segmented"
+    }    
+  },
+  "image#img-menu-segmented06":{
+    "props":{
+     "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/mochila___45c108449755daf21b681725a4c822b0.png",
+     "link":"/"
+    }
+  },
+  "rich-text#title-menu-segmented06":{
+    "props":{
+      "text":"[Mochilas](/mochilas)",
+      "blockClass":"style-title-menuSegmented"
+    }
+  },   
+
+  // Banners featured
+  "flex-layout.row#banner-featured":{
+    "children":[
+      "flex-layout.col#featured1",
+      "flex-layout.col#featured2"
+    ],
+    "props":{
+      "blockClass":"banner-featured-content"
+    }
+  },
+  "flex-layout.col#featured1":{
+    "children":[
+      "image#featured-image-01"
+    ],
+    "props":{
+      "blockClass":"banner-featured-01"
+    }
+  },
+  "image#featured-image-01":{
+    "props":{
+      "src": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/grid-001___5743a918bf6ccc745aa668c385f68a05.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#featured2":{
+    "children":[
+      "flex-layout.row#featured2-top",
+      "flex-layout.row#featured2-baseline"
+    ],
+    "props":{
+      "blockClass":"banner-featured-02"
+    }    
+  },   
+  "flex-layout.row#featured2-top":{
+    "children":[
+      "image#banner-featured2-top"
+    ]
+  },
+  "image#banner-featured2-top":{
+    "props":{
+      "src": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/grid-002___f1615063e130548458a0e8af65f5e405.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"      
+    }
+  },
+  "flex-layout.row#featured2-baseline":{
+    "children":[
+      "flex-layout.col#featured2-left",
+      "flex-layout.col#featured2-right"
+    ]
+  },
+  "flex-layout.col#featured2-left":{
+    "children":[
+      "image#banner-featured2-left"
+    ]
+  },
+  "image#banner-featured2-left":{
+    "props":{
+      "src": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/grid-003___e99a2bc8756c6f2be3cad73533aac813.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"        
+    }
+  },
+  "flex-layout.col#featured2-right":{
+    "children":[
+      "image#banner-featured2-right"
+    ]
+  }, 
+  "image#banner-featured2-right":{
+    "props":{
+      "src": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/grid-004___2e8df3c2ce4980e3873661e3ec2d6243.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"         
+    }
+  },
+
+  // Shelf Primary
+  "shelf#home":{
+    "blocks":[
+      "product-summary.shelf#featured"
+    ],
+    "props":{
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "dots":true,
+        "titleText": "POPULAR DESSA SEMANA"     
+      } 
+    }
+  },
+  "shelf#home2":{
+    "blocks":[
+      "product-summary.shelf#featured"
+    ],
+    "props":{
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "dots":true,
+        "titleText": "TENDÊNCIAS"     
+      } 
+    }
+  },  
+  "shelf#home3":{
+    "blocks":[
+      "product-summary.shelf#featured"
+    ],
+    "props":{
+      "blockClass":"shelf-featured",
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "dots":false,
+        "titleText": "ESPINGARDAS"     
+      } 
+    }
+  }, 
+  "shelf#home4":{
+    "blocks":[
+      "product-summary.shelf#featured"
+    ],
+    "props":{
+      "blockClass":"shelf-featured",
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "dots":false,
+        "titleText": ""     
+      } 
+    }
+  },     
+  "product-summary.shelf#featured":{
+    "children":[
+      "product-summary-image",
+      "product-summary-sku-selector",
+      "product-summary-name",
+      // "product-summary-description",
+      "product-summary-price",
+      "cash-discount-summary",
+      // "product-specification-badges",
+      "product-summary-specification-badges"
+      // "product-summary-buy-button"  
+    ]
+  }, 
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },  
+  "cash-discount-summary":{
+    "props":{
+      "blockClass":"cash-discount",
+      "percentageNumber":5,
+      "minimumPrice":100,
+      "discountDescription":"a vista"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "visibleVariations": [
+        "cor"
+      ],
+      "variationsSpacing": 0,
+      "showVariationsLabels": false,
+      "blockClass": "summarySku"
+    }
+  },  
+
+  // Shelf 02
+
+  // "flex-layout.col#shelf-special01":{
+  //   "children":[
+  //     "image#banner-shelfSpecial01"
+  //   ],
+  //   "props":{
+  //     "width":"30%",
+  //     "blockClass":"content-bannerSpecial"
+  //   }
+  // },
+  // "image#banner-shelfSpecial01":{
+  //   "props":{
+  //     "src": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/shelf-special01___b1b093a7f2a5290886e42e34e2e0b63a.jpg",
+  //     "maxHeight": "400px",
+  //     "blockClass":"img-bannerSpecial"
+  //   }    
+  // },
+
+
+  // Banner Middle
+  "flex-layout.row#bannerMiddle-row":{
+    "children":[
+      "info-card#infoShipping"
+    ],
+    "props":{
+      "blockClass":"content-infoCard-middle"
+    }
+  },
+  "info-card#infoShipping":{
+    "props":{
+      "id": "info-card-shipping",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner-footer___6650c84b62dc6b2b49f754982e35a770.jpg",
+      "headline": "Entregamos em todo o Brasil a mais de 17 anos atuando no mercado de armas, com responsabilidade, profissionalismo e respeito pelos nossos clientes.",
+      "callToActionText": "Como comprar seu armamento",
+      "callToActionUrl": "/como-comprar",
+      "blockClass": "info-card-shipping",
+      "textAlignment": "center"      
+    }
+  },
+  "flex-layout.row#featured1-grid":{
+    "children":[
+      "info-card#featured01"
+    ]
+  },
+  "flex-layout.row#featured2-grid":{
+    "children":[
+      "info-card#featured02"
+    ]
+  },  
+  "flex-layout.row#featured3-grid":{
+    "children":[
+      "info-card#featured03"
+    ]
+  },    
+  "flex-layout.row#featured4-grid":{
+    "children":[
+      "info-card#featured04"
+    ]
+  },    
+  "info-card#featured01":{
+    "props":{
+      "id": "info-card-featured1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/featured-001___ee46d8c58767c8d42689c1e6f8e67f48.jpg",
+      "headline": "ARMAS DE CAÇA",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver armas",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "right"       
+    }
+  },
+  "info-card#featured02":{
+    "props":{
+      "id": "info-card-featured4",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/featured-002___3dbd6b67f6a04bbde6c6ccd0e416b092.jpg",
+      "headline": "KIT DE LIMPEZA",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver kits",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "left"     
+    }
+  },  
+  "info-card#featured03":{
+    "props":{
+      "id": "info-card-featured3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/Weapon-ammunition-bullets_3840x2160___872dcb3abd7ae110f636bdd5278f9a12.jpg",
+      "headline": "CAIXAS PARA MUNIÇÃO",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver caixas",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "right"       
+    }
+  }, 
+  "info-card#featured04":{
+    "props":{
+      "id": "info-card-featured4",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/Shot_Gun_Weapon_Closeup_HD_Desktop_Wallpaper_Background___29b68ab6e44303d765a5b737bb537a63.jpg",
+      "headline": "ESPINGARDAS",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "callToActionText": "ver espingardas",
+      "callToActionUrl": "/armas-de-fogo",
+      "blockClass": "info-card-featured",
+      "textAlignment": "left"        
+    }
+  },   
+
+  
+  
+
+  // Banners segmentados
+
+  "flex-layout.row#banners-segmented":{
+    "children":[
+      "flex-layout.col#banners-segmented-01",
+      "flex-layout.col#banners-segmented-02",
+      "flex-layout.col#banners-segmented-03",
+      "flex-layout.col#banners-segmented-04"
+    ],
+    "props":{
+      "blockClass":"content-bannersSegmented"
+    }
+  },
+  "flex-layout.col#banners-segmented-01":{
+    "children":[
+      "image#segmented01"
+    ],
+    "props":{
+      "blockClass":"banner-segment-content"
+    }
+  },
+  "image#segmented01":{
+    "props":{
+      "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/bullet-001___34ab0193654f4b856f708cae98d65d43.jpg",
+      "link":"/",
+      "blockClass":"banner-segment-img"
+    }
+  },
+  "flex-layout.col#banners-segmented-02":{
+    "children":[
+      "image#segmented02"
+    ],
+    "props":{
+      "blockClass":"banner-segment-content"
+    }
+  },
+  "image#segmented02":{
+    "props":{
+      "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/bullet-003___4d067bae7d01d9089d3a98d3385ea55e.jpg",
+      "link":"/",
+      "blockClass":"banner-segment-img"
+    }
+  },  
+  "flex-layout.col#banners-segmented-03":{
+    "children":[
+      "image#segmented03"
+    ],
+    "props":{
+      "blockClass":"banner-segment-content"
+    }
+  },
+  "image#segmented03":{
+    "props":{
+      "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/bullet-002___be0d497f97085afbf04195d16f34ffcd.jpg",
+      "link":"/",
+      "blockClass":"banner-segment-img"
+    }
+  },  
+  "flex-layout.col#banners-segmented-04":{
+    "children":[
+      "image#segmented04"
+    ],
+    "props":{
+      "blockClass":"banner-segment-content"
+    }
+  },
+  "image#segmented04":{
+    "props":{
+      "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/bullet-004___7b0017f8899c5e8382d8e2baf5c0ee8d.jpg",
+      "link":"/",
+      "blockClass":"banner-segment-img"
+    }
+  },  
+  "flex-layout.row#titleFeed":{
+    "children":[
+      "rich-text#title-feed"
+    ],
+    "props":{
+      "blockClass":"titleFeed-content"
+    }
+  },
+  "rich-text#title-feed":{
+    "props":{
+      "text":"Veja quem já usa Aumann",
+      "blockClass":"title"
+    }
+  },   
+  "flex-layout.row#feedInstagram":{
+    "children":[
+      "sandbox#feedInstagram"
+    ]
+  },
+
+  "sandbox#feedInstagram":{
+    "props":{
+      "initialContent":"<script src='https://apps.elfsight.com/p/platform.js' defer></script><div class='elfsight-app-1076e444-0e83-4a1c-8885-f692a5a58a0e'></div>",
+      "width":"100%",
+      "height":"378px"
+    }
+  },
+
+  // Newsletter
+  "newsletter":{
+    "props":{
+      "label":"Faça parte do maior clube de moda masculina",
+      "submit":"Cadastrar",
+      "blockClass":"content-newsletter"
+    }
+  }
+}

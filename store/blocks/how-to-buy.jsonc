@@ -1,0 +1,243 @@
+{
+    "store.custom#howToBuy": {
+      "blocks": [
+        "flex-layout.row#content-title",
+        "flex-layout.row#register",
+        "flex-layout.row#shipping",
+        "flex-layout.row#cancel",
+        "flex-layout.row#title-video",
+        "flex-layout.row#video"
+      ]
+    },
+    "flex-layout.row#content-title":{
+        "children":[
+            "rich-text#how-to-buy"
+        ],
+        "props":{
+            "blockClass":"background-howToBuy"
+        }
+    },
+    "rich-text#how-to-buy":{
+        "props":{
+            "text":"###Como comprar <br> ####sua arma <br> veja abaixo todas as informações que você precisa saber para comprar e receber sua arma de fogo de forma segura.",
+            "blockClass":"howBuy-title"
+        }
+    },
+    "flex-layout.row#register":{
+        "children":[
+            "flex-layout.col#register01",
+            "flex-layout.col#register02",
+            "flex-layout.col#register03"
+        ],
+        "props":{
+            "blockClass":"flex-layout-register"
+        }
+    },
+    "flex-layout.col#register01":{
+        "children":[
+            "image#img-register01",
+            "rich-text#text-register01",
+            "rich-text#content-register01"
+        ],
+        "props":{
+            "blockClass":"content-register"
+        }
+    },
+    "image#img-register01":{
+        "props":{
+            "maxWidth":"100%",
+            "alt":"Registro de armas",
+            "src":"https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/policiaFederal___b2641eada4cdc9e9127d6e5091c5bf3d.jpg",
+            "blockClass":"img-register"
+        }
+    },
+    "rich-text#text-register01":{
+        "props":{
+            "text":"**POLÍCIA FEDERAL**<br>(pessoa cívil)",
+            "blockClass":"title-bullets",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-warning--faded"
+        }
+    },
+    "rich-text#content-register01":{
+        "props":{
+            "text":"O registro deverá ser feito diretamente pelo cliente. Após recebermos a AUTORIZAÇÃO PARA AQUISIÇÃO DE ARMA DE FOGO, enviaremos a 2ª via da Nota Fiscal com a numeração e características da arma, a fim de ser efetuado o registro. Após a emissão do registro, nos deverá ser enviada uma fotocópia autenticada do registro, RG e CPF para a emissão da Guia de Tráfego e o envio da arma.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text-color":"c-on-muted"            
+        }
+    },
+    "flex-layout.col#register02":{
+        "children":[
+            "image#img-register02",
+            "rich-text#text-register02",
+            "rich-text#content-register02"
+        ],
+        "props":{
+            "blockClass":"content-register"
+        }
+    },
+    "image#img-register02":{
+        "props":{
+            "maxWidth":"100%",
+            "alt":"Polícia Militar & Militar",
+            "src":"https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/militar___6e3e83a4f19762278797d578e85382c7.jpg",
+            "blockClass":"img-register"
+        }
+    },    
+    "rich-text#text-register02":{
+        "props":{
+            "text":"**POLÍCIA MILITAR &**<br> **MILITAR**",
+            "blockClass":"title-bullets",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-warning--faded"
+        }
+    },      
+    "rich-text#content-register02":{
+        "props":{
+            "text":"O registro deverá ser feito pelo cliente diretamente na sua corporação. Após recebermos a AUTORIZAÇÃO PARA AQUISIÇÃO DE ARMA DE FOGO, enviaremos 2ª via da Nota Fiscal a fim de ser efetuado o registro. Após a emissão do registro, deve nos mandar uma cópia autenticada do mesmo e funcional, para assim providenciarmos a Guia de Tráfego e o envio da arma.",
+            "textAlignment": "CENTER",
+            "text-color":"c-on-muted"            
+        }
+    },      
+    "flex-layout.col#register03":{
+        "children":[
+            "image#img-register03",
+            "rich-text#text-register03",
+            "rich-text#content-register03"
+        ],
+        "props":{
+            "blockClass":"content-register"
+        }
+    },
+    "image#img-register03":{
+        "props":{
+            "maxWidth":"100%",
+            "alt":"Colecionador",
+            "src":"https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/colecionador___a841a3c2736f4163b10bbe17896f75ac.jpg",
+            "blockClass":"img-register"
+        }
+    },    
+    "rich-text#text-register03":{
+        "props":{
+            "text":"**ATIRADORES &**<br> **COLECIONADORES**",
+            "blockClass":"title-bullets",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-warning--faded"
+        }
+    },
+    "rich-text#content-register03":{
+        "props":{
+            "text":"O registro deverá ser efetuado diretamente pelo cliente no seu CR junto ao SFPC da sua jurisdição. Confirmado o pagamento, enviaremos a 2ª via da Nota Fiscal a fim de ser efetuado o registro. Após a emissão do registro deverá nos enviar uma fotocópia autenticada do registro (CRAF), RG. e CPF para a emissão da Guia de Tráfego e o envio da arma.",
+            "textAlignment": "CENTER",
+            "text-color":"c-on-muted"            
+        }
+    } ,
+    "flex-layout.row#shipping":{
+        "children":[
+            "flex-layout.col#title-howTo-secondary",
+            "flex-layout.col#content-shipping"
+        ],
+        "props":{
+            "blockClass":"content-howTo-shipping"
+        }
+    },
+    "flex-layout.col#title-howTo-secondary":{
+        "children":[
+            "rich-text#title-secondary"
+        ],
+        "props":{
+            "blockClass":"title-howTo-content",
+            "width":"35%"
+        }
+    },
+    "rich-text#title-secondary":{
+        "props":{
+            "text":"Frete e prazo<br> de entrega",
+            "blockClass":"title-howTo-secondary"
+        }
+    },
+    "flex-layout.col#content-shipping":{
+        "children":[
+            "rich-text#shipping-content"
+        ],
+        "props":{
+            "blockClass":"shipping-howTo-content"
+        }
+    },
+    "rich-text#shipping-content":{
+        "props":{
+            "text":"Serão enviadas após a emissão do Registro e da Guia de Tráfego, através de Transportadora devidamente autorizada pelo Ministério do Exército, para o aeroporto de cargas mais próximo de sua residência.<br> O custo do frete é automaticamente calculado pelo site.<br>Armas serão entregues de acordo com a disponibilidade da fábrica, o prazo pode chegar a sessenta dias.",
+            "blockClass":"content-howTo-shipping"
+        }
+    },
+    // teste
+    "flex-layout.row#cancel":{
+        "children":[
+            "flex-layout.col#title-cancel-secondary",
+            "flex-layout.col#content-cancel"
+        ],
+        "props":{
+            "blockClass":"content-howTo-shipping"
+        }
+    },
+    "flex-layout.col#title-cancel-secondary":{
+        "children":[
+            "rich-text#title-cancel-secondary"
+        ],
+        "props":{
+            "blockClass":"title-howTo-content",
+            "width":"35%"
+        }
+    },
+    "rich-text#title-cancel-secondary":{
+        "props":{
+            "text":"Se precisar<br> cancelar",
+            "blockClass":"title-howTo-secondary"
+        }
+    },
+    "flex-layout.col#content-cancel":{
+        "children":[
+            "rich-text#cancel-content"
+        ],
+        "props":{
+            "blockClass":"shipping-howTo-content"
+        }
+    },
+    "rich-text#cancel-content":{
+        "props":{
+            "text":"ARMAS,  após a confirmação do pagamento, será iniciado o processo de reserva e registro da arma. A partir dessa data, caso haja cancelamento por parte do cliente, será cobrada uma multa de 20% (vinte por cento) sobre o valor da arma + as despesas tidas.ARMAS, não poderá ser efetuado o Cancelamento após a emissão do Registro da Arma de Fogo.",
+            "blockClass":"content-howTo-shipping"
+        }
+    },
+    // video
+    "flex-layout.row#title-video":{
+        "children":[
+            "rich-text#title-video"
+        ]
+    },
+    "rich-text#title-video":{
+        "props":{
+            "text":"Veja o que nosso CEO tem a dizer para você:",
+            "blockClass":"title-video-howTo"
+        }
+    },
+    "flex-layout.row#video":{
+        "children":[
+            "sandbox"
+        ]
+    },
+    "sandbox":{
+        "props": {
+            "width": "600px",
+            "height": "300px",
+            "initialContent": "as",
+            "allowCookies": true
+        }
+    }
+
+
+}

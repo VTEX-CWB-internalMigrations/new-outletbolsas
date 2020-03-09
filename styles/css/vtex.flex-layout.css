@@ -1,0 +1,103 @@
+.flexRow--banner-featured-content,
+.flexRow--content-infoCard-middle{display:none;}
+
+.flexRow--content-tips{
+    background: url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/bg-tips___6ec53fc82fcc553d1ddd2881ea47fc19.jpg) repeat scroll left center transparent;
+    margin: 2em 0;
+}
+.flexCol--col-tips{
+    position: relative;
+    align-items: center;
+    border-left: 1px dashed #3468ab;
+}
+
+.flexRow--bg-shelfSpecial{
+    background: url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/bg-bullet___c9a8000167878816029e5c6942d30f6d.jpg) repeat center scroll transparent;
+}
+
+.flexRow--footer-row-2{margin-top:4em;}
+.flexColChild--content-footer{height:auto !important;}
+.flexRow--productDetail-description{background:#fff;padding:1em 0;}
+.flexRow--content-bannerSpecial{display:none;}
+.flexRow--deals{background: #f8f8f8;padding: .5em 0;}
+.flexRow--content-bannersSegmented{margin:2em 0 0;}
+.flexRow--content-bannersSegmented{display:none;}
+.flexRow--productDetail-tabDescription{border-top: 1px solid #ccc;}
+
+
+.flexRow--background-howToBuy{
+    background: urL(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/how-buy___cbdc6eea35d647c34fc68493ec26e848.jpg) no-repeat center scroll transparent;
+    padding:1.5em;
+    background-position: left bottom;
+}
+
+.flexRow--flex-layout-register{
+    padding:4em 0;
+}
+.flexColChild--content-register{
+    text-align: center;
+    padding: 0 2em;
+}
+.flexRow--content-howTo-shipping{
+    background: #f4f4f4;
+    padding:1.5em 0;
+    margin:1em 0;
+}
+
+.flexCol--menu-segmented{align-items: center;}
+.flexRowContent--custom-navigation{
+    max-width: 920px;
+    margin: 0 auto;
+    justify-content: center;    
+}
+
+@media only screen and (min-width: 40em){
+    .flexRow--banner-featured-content{display:block;}
+    .flexColChild--banner-featured-01{text-align: right;margin-top:1em;z-index:2}
+    .flexColChild--banner-featured-02{text-align: left;margin-top:1em;z-index: 2;}
+    .flexRow--content-infoCard-middle{display:block;margin:4em 0 1em;}
+    .flexRow--row-sealSecurity{
+        margin-top: -4.5em;
+        width:100%;
+        text-align: right;
+        justify-content: right;
+    }
+
+    .flexRowContent--container-breadcrumb{
+        position: relative;
+        z-index: 444;
+    }
+
+    .flexRow--container-breadcrumb{
+        background-color: #f7f7f7;
+        margin: 0 0 6px;
+        padding: 10px 0;
+        text-align: left;
+        position: relative;   
+    }
+    
+    .flexRow--container-breadcrumb::before{
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: -999px;
+        right: -999px;
+        bottom: 0;
+        background: #f7f7f7;
+        pointer-events: none; 
+        max-width: 141.4vw;
+    }
+    .flexRowContent--content-searchInfo{
+        margin-top:-3.5em;
+    }
+
+
+}
+
+@media only screen and (min-width: 80em){
+.flexColChild--banner-featured-01{text-align: right;margin:.5em;}
+.flexColChild--banner-featured-02{text-align: left;margin:.5em;}
+.flexRow--content-bannerSpecial{display:block;}
+.flexRow--content-bannersSegmented{display:block;}
+.flexRow--content-bannersSegmented{margin:1em 0 5em;}
+}

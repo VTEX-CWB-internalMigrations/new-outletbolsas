@@ -1,0 +1,245 @@
+{
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#armas-de-fogo",
+      "menu-item#coldres-de-armas",
+      "menu-item#armas-de-pressao"
+    ]
+  },
+// menu 01
+  "menu-item#armas-de-fogo": {
+    "props": {
+      "id": "menu-item-category-armas-de-fogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/armas-de-fogo",
+        "noFollow": true,
+        "tagTitle": "Armas de fogo",
+        "text": "Armas de fogo"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#armasFogo"]
+  },
+  "vtex.menu@2.x:submenu.accordion#armasFogo": {
+    "children": ["vtex.menu@2.x:menu#armas-fogo-accordion"]
+  },
+  "vtex.menu@2.x:menu#armas-fogo-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#pistola",
+      "menu-item#revolver",
+      "menu-item#espingarda",
+      "menu-item#carabina-e-rifle"
+    ]
+  },
+
+  "menu-item#pistola": {
+    "props": {
+      "id": "menu-item-pistola",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/armas-de-fogo/pistola",
+        "noFollow": false,
+        "tagTitle": "Pistola",
+        "text": "Pistola"
+      }
+    }
+  },
+  "menu-item#revolver": {
+    "props": {
+      "id": "menu-item-revolver",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/armas-de-fogo/revolver",
+        "noFollow": false,
+        "tagTitle": "Revolver",
+        "text": "Revolver"
+      }
+    }
+  },
+  "menu-item#espingarda": {
+    "props": {
+      "id": "menu-item-espingarda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/armas-de-fogo/espingarda",
+        "noFollow": false,
+        "tagTitle": "Espingarda",
+        "text": "Espingarda"
+      }
+    }
+  },
+  "menu-item#carabina-e-rifle": {
+    "props": {
+      "id": "menu-item-carabina-e-rifle",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/armas-de-fogo/carabina-e-rifle",
+        "noFollow": false,
+        "tagTitle": "Carabina e rifle",
+        "text": "Carabina e rifle"
+      }
+    }
+  },
+  
+// menu 02
+"menu-item#coldres-de-armas": {
+  "props": {
+    "id": "menu-item-category-coldres-de-armas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/coldres-de-armas",
+      "noFollow": true,
+      "tagTitle": "Coldres de armas",
+      "text": "Coldres de armas"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#coldresArmas"]
+},
+"vtex.menu@2.x:submenu.accordion#coldresArmas": {
+  "children": ["vtex.menu@2.x:menu#coldres-armas-accordion"]
+},
+"vtex.menu@2.x:menu#coldres-armas-accordion": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#polimero",
+    "menu-item#nylon",
+    "menu-item#couro",
+    "menu-item#neoprene"
+  ]
+},
+
+"menu-item#polimero": {
+  "props": {
+    "id": "menu-item-polimero",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/coldres-de-armas/polimero",
+      "noFollow": false,
+      "tagTitle": "Polimero",
+      "text": "Polimero"
+    }
+  }
+},
+"menu-item#nylon": {
+  "props": {
+    "id": "menu-item-nylon",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/coldres-de-armas/nylon",
+      "noFollow": false,
+      "tagTitle": "Nylon",
+      "text": "Nylon"
+    }
+  }
+},
+"menu-item#couro": {
+  "props": {
+    "id": "menu-item-couro",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/coldres-de-arma/couro",
+      "noFollow": false,
+      "tagTitle": "Couro",
+      "text": "Couro"
+    }
+  }
+},
+"menu-item#neoprene": {
+  "props": {
+    "id": "menu-item-neoprene",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/coldres-de-armas/neoprene",
+      "noFollow": false,
+      "tagTitle": "Neoprene",
+      "text": "Neoprene"
+    }
+  }
+},  
+
+// menu 03
+"menu-item#armas-de-pressao": {
+  "props": {
+    "id": "menu-item-category-armas-de-pressao",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/armas-de-pressao",
+      "noFollow": true,
+      "tagTitle": "Armas de Pressão",
+      "text": "Armas de Pressão"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#armasPressao"]
+},
+"vtex.menu@2.x:submenu.accordion#armasPressao": {
+  "children": ["vtex.menu@2.x:menu#armas-pressao-accordion"]
+},
+"vtex.menu@2.x:menu#armas-pressao-accordion": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#carabina"
+  ]
+},
+
+"menu-item#carabina": {
+  "props": {
+    "id": "menu-item-carabina",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/armas-de-pressao/carabina",
+      "noFollow": false,
+      "tagTitle": "Carabina",
+      "text": "Carabina"
+    }
+  }
+} 
+
+
+
+}

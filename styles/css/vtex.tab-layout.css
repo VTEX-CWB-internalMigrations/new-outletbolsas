@@ -1,0 +1,23 @@
+.container--shelf-table{
+    padding: 1em 0 0;
+    background: #f4f4f4;
+}
+
+.listContainer{
+    margin-bottom:2em;
+}
+
+.listItem--shelfTable-button{
+    border-right: 3px solid #ddd;
+}
+
+/* .listItem--shelfTable-button button{font-weight: bold;}
+.listItem--shelfTable-button button:focus{color:#f60;} */
+
+.listItem--shelfTable-button:last-child{
+    border:0;
+}
+
+.listContainer--container-tabsDescription{
+    margin-top:-3.05em;
+}

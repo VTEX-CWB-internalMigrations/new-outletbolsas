@@ -1,0 +1,17 @@
+.headerStickyRow{
+    border-bottom:0;
+}
+
+.headerRowBackground{
+    border-bottom: 1px solid #eee;
+    padding: 0.3em 0;
+    background: #EEB21C;
+}
+
+.headerRowBackground--header-primary{
+    background: #fff;
+}
+
+.headerRowContainer--content-searchBar{
+    justify-content: center;
+}

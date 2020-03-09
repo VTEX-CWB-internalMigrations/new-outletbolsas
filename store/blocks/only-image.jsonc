@@ -1,0 +1,30 @@
+{
+    "store.custom#onlyImage": {
+      "blocks": [
+        "flex-layout.row#title-intitutional",
+        "flex-layout.row#content-intitutional"
+      ]
+    },
+    "flex-layout.row#title-intitutional":{
+      "children":[
+        "rich-text#title-intitutional"
+      ]
+    },
+    "rich-text#title-intitutional":{
+      "props":{
+        "text":"[Título da página]",
+        "blockClass":"title-intitutional"
+      }
+    },
+    "flex-layout.row#content-intitutional":{
+      "children":[
+        "image#imagemInstitucional"
+      ]
+    },  
+    "image#imagemInstitucional":{
+        "props":{
+            "src":"https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/TabeladeAeroportos-BrasilTatica___23e2de6172d64f5a00dc73d0d6c202a2.jpg",
+            "width":"auto"
+        }
+    }
+  }

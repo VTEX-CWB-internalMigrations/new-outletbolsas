@@ -1,0 +1,194 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  /* Footer row 1 */
+  "flex-layout.row#footer-1-desktop":{
+    "children":[
+      "rich-text#page01",
+      "rich-text#page02",
+      "rich-text#page03",
+      "rich-text#page04",
+      "rich-text#page05"
+    ]
+  },
+  /* Intitutional */
+  "rich-text#page01":{
+    "props":{
+      "text":"[Aumann card](/cartao-mr-w)",
+      "blockClass":"link-first-intitutional"
+    }
+  },
+  "rich-text#page02":{
+    "props":{
+      "text":"[Sobre a empresa](/sobre)",
+      "blockClass":"link-intitutional"
+    }
+  },  
+  "rich-text#page03":{
+    "props":{
+      "text":"[Segurança](/seguranca)",
+      "blockClass":"link-intitutional"
+    }
+  },    
+  "rich-text#page04":{
+    "props":{
+      "text":"[Política](/politica)",
+      "blockClass":"link-intitutional"
+    }
+  },    
+  "rich-text#page05":{
+    "props":{
+      "text":"[Trocas e devoluções](/trocas)",
+      "blockClass":"link-intitutional"
+    }
+  },    
+  /* "rich-text#page06":{
+    "props":{
+      "text":"[Dúvidas](/duvidas)",
+      "blockClass":"link-intitutional"
+    }
+  }, */
+  /* Footer row 2 */    
+  "flex-layout.row#footer-2-desktop":{
+    "children":[
+      "flex-layout.col#about-us",
+      "footer-spacer",
+      "flex-layout.col#info-buy",
+      "flex-layout.col#payment"
+    ],
+    "props":{
+      "blockClass":"footer-row-2"
+    }
+  },
+  "flex-layout.col#about-us":{
+    "children":[
+      "image#logo-footer",
+      "rich-text#aboutUs-footer"
+    ],
+    "props":{
+      "width":"45%",
+      "blockClass":"about-us"
+    }
+  },
+  "image#logo-footer":{
+    "props":{
+      "src":"https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/logo-FOOTER___2fb47f10cdb40dcaeee1bfe13742da86.png",
+      "alt":"Aumann store"
+    }
+  },
+  "rich-text#aboutUs-footer":{
+    "props":{
+      "text":"A Aumann Store nasceu do meu desejo de ter uma loja VTEX para testar cenários e fluxos de variados clientes, aprendendo mais sobre configurações e implantação de loja com VTEX. Com essa loja, consigo simular e apresentar modelos de soluções para nossos clientes, utilizando um ambiente bonito, apresentável e controlado. Imaginando aumentar a credibilidade da plataforma com nossos clientes. Ambiente construido por Willy Aumann - VTEX CWB",
+      "blockClass":"description-footer"
+    }
+  },
+  /* Contact & Hour */
+  "flex-layout.col#info-buy":{
+    "children":[
+      "rich-text#footer-contact-title",
+      "rich-text#footer-phone",
+      "rich-text#footer-hour"
+    ],
+    "props":{
+      "blockClass":"content-footer"
+    }
+  },
+  "rich-text#footer-contact-title":{
+    "props":{
+      "text": "TELEVENDAS",
+      "blockClass":"footer-title"
+    }
+  },
+  "rich-text#footer-phone":{
+    "props":{
+      "text": "(41) 3016-5155",
+      "blockClass":"footer-textDefault"
+    }
+  },
+  "rich-text#footer-hour":{
+    "props":{
+      "text": "Segunda a Sexta-feira<br/>das 09hrs às 18hrs",
+      "blockClass":"footer-textDefault"
+    }
+  },
+  /* Payment */
+  "flex-layout.col#payment":{
+    "children":[
+      "rich-text#footer-payment-title",
+      "accepted-payment-methods"
+    ],
+    "props":{
+      "blockClass":"content-footer"
+    }
+  },
+  "rich-text#footer-payment-title":{
+    "props":{
+      "text": "PAGAMENTOS",
+      "blockClass":"footer-title"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club", "Elo"]
+    }
+  },
+  /* Footer row 3 */  
+  "flex-layout.row#footer-3-desktop":{
+    "children":[
+      "rich-text#copyright"
+    ]
+  },
+  "rich-text#copyright":{
+    "props":{
+      "text":"Copyright ® - Todos os direitos reservados.<br/>Rua Prefeito Ângelo Ferrário Lopes, 1528 Hugo Lange - Curitiba - Paraná.",
+      "blockClass":"text-copyright"
+    }
+  },
+
+
+  // Footer mobile
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "Copyright ® - Todos os direitos reservados.<br/>Brasil Tática - CNPJ:28.039.153/0001-61 Rua 24 de Maio, 1575 Loja - Rebouças - Curitiba - Paraná e CEP 80.220-060.",
+      "blockClass": "footer"
+    }
+  }  
+  
+}

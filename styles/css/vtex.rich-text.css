@@ -54,7 +54,7 @@
 .container--link-first-intitutional .link--footer-title,
 .container--link-first-intitutional .link--link-first-intitutional{
   color:#fff;
-  border-bottom: 1px solid #EEB21C;
+  border-bottom: 1px solid #ff2932;
   width: auto !important;
   text-decoration: none;
   padding-bottom: .5em;
@@ -63,7 +63,7 @@
 .container--link-intitutional .link--text-copyright,
 .container--link-intitutional .link--footer-title,
 .container--link-intitutional .paragraph--link-intitutional .link--link-intitutional{
-  color:#EEB21C;
+  color:#ffffff;
   text-decoration: none;
 }
 

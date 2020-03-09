@@ -114,7 +114,7 @@
   display: inline-block;
   margin: 0;
   font-size: 1.5em;
-  color: #EEB21C;
+  color: #ff2932;
 }
 .price_listPriceLabel--productDetails-price{
   display:none;
@@ -247,6 +247,10 @@
 
 .imageElement--img-register{
   border-radius: 100%;
+}
+
+.imageElement--footerLogo{
+  max-width: 110px;
 }
 
  @media only screen and (min-width: 40em){

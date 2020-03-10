@@ -17,24 +17,6 @@
       "header-row#2-desktop"
     ]
   },
-  "header-row#1-desktop": {
-    "children": [
-      "header-spacer",
-      "rich-text#card-fe",
-      "rich-text#stores",
-      "rich-text#contact",
-      "rich-text#btn-howToBuy"
-    ],
-    "props": {
-      "blockClass": "header-lineOne"
-    }
-  },
-  "rich-text#card-fe": {
-    "props": {
-      "text": "cartão F&E: 4004 0127",
-      "blockClass": "contact-header"
-    }
-  },
   "rich-text#stores": {
     "props": {
       "text": "nossas lojas",
@@ -55,12 +37,6 @@
       "passwordPlaceholder": "Senha",
       "showPasswordVerificationIntoTooltip": true,
       "blockClass": "login-desktop"
-    }
-  },
-  "rich-text#btn-howToBuy": {
-    "props": {
-      "text": "Veja aqui como comprar sua arma de fogo",
-      "blockClass": "btn-howToBuy"
     }
   },
   "header-row#2-desktop": {
@@ -109,7 +85,8 @@
       "product-summary"
     ],
     "props": {
-      "type": "popup",
+      "type": "drawer",
+      "variation": "drawer",
       "showRemoveButton": true,
       "showDiscount": true,
       "showSku": true,

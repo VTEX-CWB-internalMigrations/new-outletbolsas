@@ -1,5 +1,5 @@
 .menuContainer{
-    width:28em;
+    min-width:28em;
 }
 
 .menuItem{

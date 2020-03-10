@@ -48,7 +48,7 @@
       "search-bar",
       "header-spacer",
       "login",
-      "minicart"
+      "minicart.v2"
     ],
     "props": {
       "sticky": true,
@@ -80,13 +80,13 @@
       "maxWidth": "400px"
     }
   },
-  "minicart": {
+  "minicart.v2": {
     "blocks": [
       "product-summary"
     ],
     "props": {
-      "type": "drawer",
       "variation": "drawer",
+      "drawerSlideDirection": "rightToLeft",
       "showRemoveButton": true,
       "showDiscount": true,
       "showSku": true,
@@ -119,7 +119,7 @@
       "logo#mobile",
       "header-spacer",
       "login",
-      "minicart"
+      "minicart.v2"
     ],
     "props": {
       "sticky": true,

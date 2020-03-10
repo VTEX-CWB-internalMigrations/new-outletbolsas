@@ -108,9 +108,7 @@
     ]
   },
   "header-row#-mobile-contact": {
-    "children": [
-      "rich-text#card-fe"
-    ],
+    "children": [],
     "props": {
       "inverted": true
     }

@@ -185,7 +185,7 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
+      "image#payments",
       "social-networks",
       "rich-text#footer-mobile"
     ],

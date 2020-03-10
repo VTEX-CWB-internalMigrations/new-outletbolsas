@@ -127,10 +127,16 @@
   "flex-layout.col#payment": {
     "children": [
       "rich-text#footer-payment-title",
-      "accepted-payment-methods"
+      "image#payments"
     ],
     "props": {
       "blockClass": "content-footer"
+    }
+  },
+  "image#payments": {
+    "props": {
+      "src": "",
+      "blockClass": "paymentImage"
     }
   },
   "rich-text#footer-payment-title": {

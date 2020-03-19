@@ -1,6 +1,4 @@
-.menuContainer{
-    min-width:28em;
-}
+
 
 .menuItem{
     border-bottom: 1px dashed #ccc;
@@ -33,4 +31,10 @@
 
 .submenuWrapper{
     width: 100%;
+}
+
+.menuContainer--mainMenu .styledLinkContainer{
+    padding: 1em 0;
+    font-size: 13px;
+    margin: 0px 10px;
 }

@@ -135,23 +135,13 @@
 .productBrand--productDetails-name{
   font-size:1.5em;
   font-weight: 100;
-  font-family: 'Raleway';
 }
 .price_className--productDetails-price{margin: 1.5em 0;}
 .shareContainer{margin-top:1em;}
 .shareLabel{display:none;}
-.shareSocialButton:first-child::before{
-  content:"";
-  width:16px;
-  height:16px;
-  background: url(https://storetheme003.vtexassets.com/assets/vtex.file-manager-graphql/images/face___050a502199a61dc1b9aa89a9a98790fc.png);
-  display:flex;
-  background-size:16px;
-}
 .productDescriptionText{
   color: #a5a5a5;
   line-height: 1.5;
-  font-family: 'Raleway';
   text-align: justify;  
   padding-top:1em;
 }
@@ -258,13 +248,21 @@
 }
 
 .logoLink--logo-desktop{
-  max-width: 350px;
+  max-width: 175px;
 }
 
 .logoContainer--logo-desktop{
   max-width: unset;
   padding: 0px;
   margin: 10px;
+}
+
+.shippingContainer :global(.vtex-button){
+  height: 40px;
+  margin: -5px 15px 0px;
+}
+.shippingContainer{
+  align-items: center;
 }
 
  @media only screen and (min-width: 40em){

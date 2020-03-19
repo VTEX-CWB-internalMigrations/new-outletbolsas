@@ -4,9 +4,11 @@
       "menu-item#allCategories",
       "menu-item#purse",
       "menu-item#accessories",
-      "menu-item#backpack",
       "menu-item#offers"
-    ]
+    ],
+    "props":{
+      "blockClass": "mainMenu"
+    }
   },
   "menu-item#allCategories":{
     "props":{
@@ -38,6 +40,7 @@
   },
   "menu-item#purse":{
     "props":{
+      "blockClass": "offerOption",
       "id": "menu-item-category-purse",
       "type": "custom",
       "iconId": null,
@@ -46,13 +49,14 @@
           "type": "internal",
           "href": "/",
           "noFollow": true,
-          "tagTitle": "Bolsas",
-          "text": "Bolsas"
+          "tagTitle": "Mais Vendidos",
+          "text": "Mais Vendidos"
       }
     }
   },
   "menu-item#accessories":{
     "props":{
+      "blockClass": "offerOption",
       "id": "menu-item-category-accessories",
       "type": "custom",
       "iconId": null,
@@ -61,23 +65,8 @@
           "type": "internal",
           "href": "/",
           "noFollow": true,
-          "tagTitle": "Acessórios",
-          "text": "Acessórios"
-      }
-    }
-  },
-  "menu-item#backpack":{
-    "props":{
-      "id": "menu-item-category-mochila",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": true,
-          "tagTitle": "Mochilas",
-          "text": "Mochilas"
+          "tagTitle": "Lançamentos",
+          "text": "Lançamentos"
       }
     }
   },

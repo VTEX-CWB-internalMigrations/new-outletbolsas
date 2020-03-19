@@ -1,4 +1,4 @@
-.nameContainer{padding:.5em 0;justify-content: left;}
+.nameContainer{padding:.5em .5em;justify-content: left;}
 .productNameContainer{text-align: left;}
 .brandName{font-size: .9em;text-transform: lowercase;text-align: left;}
 .imageNormal{max-height: 100%;}
@@ -29,3 +29,7 @@
 }
 .productBrand{text-transform: lowercase;}
 .buyButtonContainer{display:none;}
+
+.productPriceClass{
+    padding: 0 .5em;
+}

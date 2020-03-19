@@ -36,7 +36,8 @@
       "emailPraceholder": "E-mail",
       "passwordPlaceholder": "Senha",
       "showPasswordVerificationIntoTooltip": true,
-      "blockClass": "login-desktop"
+      "blockClass": "login-desktop",
+      "showIconProfile": true
     }
   },
   "header-row#2-desktop": {

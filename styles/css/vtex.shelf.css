@@ -1,5 +1,4 @@
-.container{margin:3em 0;}
-.title{font-weight: 100;color:#8a8a8a;font-size: 1.5em;padding:1rem 0;}
+.title{font-weight: 100;color:#8a8a8a;font-size: 1.5em;padding:1rem 0;text-align: center}
 .slide--shelf-featured .nameContainer,
 .slide--shelf-table .nameContainer{font-weight: bold;}
 /* Tabs shelf */
@@ -26,6 +25,7 @@
 .slide--shelf-week{
     width:25% !important;
 }
+
 
 @media only screen and (min-width: 40em){
     .container--shelf-featured .title{

@@ -42,11 +42,9 @@
   "header-row#2-desktop": {
     "children": [
       "logo#desktop",
-      "header-spacer",
-      "category-menu",
+      "vtex.menu@2.x:menu#header-menu",
       "header-spacer",
       "search-bar",
-      "header-spacer",
       "login",
       "minicart.v2"
     ],

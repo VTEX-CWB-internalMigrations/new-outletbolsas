@@ -26,3 +26,11 @@
     color: #999;
     text-transform: capitalize;
 }
+
+.styledLinkContent--offerOption{
+    color: #E50325;
+}
+
+.submenuWrapper{
+    width: 100%;
+}

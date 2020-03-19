@@ -45,6 +45,10 @@
   font-style: italic;  
 }
 
+.searchBarContainer{
+  max-width: 300px !important;
+}
+
 .buttonContainer--content-newsletter{
   justify-content: center;
 }
@@ -251,6 +255,16 @@
 
 .imageElement--footerLogo{
   max-width: 110px;
+}
+
+.logoLink--logo-desktop{
+  max-width: 350px;
+}
+
+.logoContainer--logo-desktop{
+  max-width: unset;
+  padding: 0px;
+  margin: 10px;
 }
 
  @media only screen and (min-width: 40em){

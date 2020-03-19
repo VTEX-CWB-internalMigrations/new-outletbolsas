@@ -1,11 +1,103 @@
 {
-  "vtex.menu@2.x:menu#category-menu": {
+  "vtex.menu@2.x:menu#header-menu": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      "menu-item#allCategories",
+      "menu-item#purse",
+      "menu-item#accessories",
+      "menu-item#backpack",
+      "menu-item#offers"
     ]
   },
+  "menu-item#allCategories":{
+    "props":{
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/clothing/",
+          "noFollow": true,
+          "tagTitle": "Todos os departamentos",
+          "text": "Todos os departamentos"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#allDepartment"
+    ]
+  },
+  "vtex.menu@2.x:submenu#allDepartment":{
+    "children":[
+      "vtex.menu@2.x:menu#allDepartment"
+    ]
+  },
+  "vtex.menu@2.x:menu#allDepartment":{
+    "props":{
+      "blockClass": "departmentSubmenu"
+    }
+  },
+  "menu-item#purse":{
+    "props":{
+      "id": "menu-item-category-purse",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Bolsas",
+          "text": "Bolsas"
+      }
+    }
+  },
+  "menu-item#accessories":{
+    "props":{
+      "id": "menu-item-category-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Acessórios",
+          "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#backpack":{
+    "props":{
+      "id": "menu-item-category-mochila",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Mochilas",
+          "text": "Mochilas"
+      }
+    }
+  },
+  "menu-item#offers":{
+    "props":{
+      "blockClass": "offerOption",
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Ofertas",
+          "text": "Ofertas"
+      }
+    }
+  },
+
   "menu-item#category-clothing": {
     "props": {
       "id": "menu-item-category-clothing",

@@ -1,5 +1,9 @@
 .label{display:none;}
 .cartIcon{color:#d6d3d3;}
+.openIconContainer{
+    padding: 0px;
+}
+
 /*
 .container{
     background:url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/shoppingCart-icon___1341df25d75b8b6de682920edc4aad93.png) no-repeat center scroll transparent;

@@ -1,2 +1,5 @@
 
 .profileIcon{color:#d6d3d3;}
+.buttonLink :global(.vtex-button){
+    max-width: 30px;
+}

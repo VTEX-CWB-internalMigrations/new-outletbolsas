@@ -20,7 +20,10 @@
       "rich-text#page03",
       "rich-text#page04",
       "rich-text#page05"
-    ]
+    ],
+    "props":{
+      "blockClass": "row-footer-one"
+    }
   },
   /* Intitutional */
   "rich-text#page01": {
@@ -159,7 +162,10 @@
   "flex-layout.row#footer-3-desktop": {
     "children": [
       "rich-text#copyright"
-    ]
+    ],
+    "props":{
+      "blockClass": "row-footer-three"
+    }
   },
   "rich-text#copyright": {
     "props": {

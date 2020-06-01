@@ -63,6 +63,15 @@
     margin: 50px 20px;
 }
 
+.flexRowContent--main-product-block{
+    padding: 0px 30px;
+}
+
+.flexCol--buy-button-main :global(.vtex-button){
+    border: none;
+}
+
+
 @media only screen and (min-width: 40em){
     .flexRow--banner-featured-content{display:block;}
     .flexColChild--banner-featured-01{text-align: right;margin-top:1em;z-index:2}
@@ -83,7 +92,7 @@
     .flexRow--container-breadcrumb{
         background-color: #f7f7f7;
         margin: 0 0 6px;
-        padding: 10px 0;
+        padding: 0px;
         text-align: left;
         position: relative;   
     }

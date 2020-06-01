@@ -26,7 +26,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "main-product-block"
     },
     "children":[
       "flex-layout.col#stack",
@@ -99,7 +100,7 @@
   "sku-selector":{
     "props":{
       "displayMode": "select",
-      "imageWidth": "100px",
+      "imageWidth": "70px",
       "showVariationsLabels": true
     }
   },
@@ -162,7 +163,10 @@
   "flex-layout.col#colBuy":{
     "children":[
       "buy-button#btn-productDetail"
-    ]
+    ],
+    "props":{
+      "blockClass": "buy-button-main"
+    }
   },
   "buy-button#btn-productDetail":{
     "props":{

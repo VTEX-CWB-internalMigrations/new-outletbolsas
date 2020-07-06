@@ -4,7 +4,7 @@
       "carousel#main",
       "flex-layout.row#deals",
       "flex-layout.row#title-banners-segmented",
-      "flex-layout.row#menu-segmented",
+      "flex-layout.row#menu-segmentuse homologed",
       "list-context.image-list#brands-context",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */

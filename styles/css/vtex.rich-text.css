@@ -123,11 +123,16 @@
 }
 
 .container--title-intitutional .paragraph{
-  border-left: 5px solid #ff6600;
+  border-left: 5px solid #e71c3b;
   padding-bottom: .3em;
   font-weight: bold;
   font-size: 1.2em;
   padding-left: .5em;
+  margin-bottom: 0px;
+}
+
+.link--content-intitutional{
+  color: #000;
 }
 
 .container--footer{
@@ -298,6 +303,18 @@
 
 .paragraph--title{
   margin: 10px 0px;
+}
+
+.container--content-intitutional{
+  max-width: 1000px;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.container--title-intitutional{
+  max-width: 1000px;
+  margin: 0px auto;
+  display: block;
 }
 
 @media only screen and (min-width: 40em){

@@ -3,12 +3,12 @@
     "blocks": [
       "carousel#main",
       "flex-layout.row#deals",
+      "shelf#home",
       "flex-layout.row#title-banners-segmented",
       "flex-layout.row#menu-segmented",
       "list-context.image-list#brands-context",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "shelf#home",
       "flex-layout.row#banner-featured",
       "shelf#home2"
       // "shelf#home3",
@@ -101,7 +101,8 @@
 
   "slider-layout#mobile-brands":{
     "props":{
-      "blockClass": "mobile-brands"
+      "blockClass": "mobile-brands",
+      "showPaginationDots": "never"
     }
   },
 

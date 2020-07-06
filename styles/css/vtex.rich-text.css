@@ -296,6 +296,10 @@
   color: #fff;
 }
 
+.paragraph--title{
+  margin: 10px 0px;
+}
+
 @media only screen and (min-width: 40em){
   .container--link-regulation{
     text-align: center;

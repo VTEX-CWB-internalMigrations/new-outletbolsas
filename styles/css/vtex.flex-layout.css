@@ -71,6 +71,15 @@
     border: none;
 }
 
+.flexRow--custom-navigation{
+    display: none;
+}
+
+@media only screen and (min-width: 640px){
+    .flexRow--custom-navigation{
+        display: block;
+    }
+}
 
 @media only screen and (min-width: 40em){
     .flexRow--banner-featured-content{display:block;}

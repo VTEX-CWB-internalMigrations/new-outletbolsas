@@ -5,6 +5,7 @@
       "flex-layout.row#deals",
       "flex-layout.row#title-banners-segmented",
       "flex-layout.row#menu-segmented",
+      "list-context.image-list#brands-context",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "shelf#home",
@@ -75,6 +76,35 @@
       "blockClass": "custom-navigation"
     }
   },
+
+  "list-context.image-list#brands-context":{
+    "children":["slider-layout#mobile-brands"],
+    "props":{
+      "blockClass": "mobile-brands",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 2, 
+        "phone": 1
+      },
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#mobile-brands":{
+    "props":{
+      "blockClass": "mobile-brands"
+    }
+  },
+
   "flex-layout.col#menu-segmented01": {
     "children": [
       "image#img-menu-segmented01",
@@ -351,7 +381,6 @@
       "product-summary-name",
       // "product-summary-description",
       "product-summary-price",
-      "cash-discount-summary",
       // "product-specification-badges",
       "product-summary-specification-badges"
       // "product-summary-buy-button"  
@@ -363,14 +392,6 @@
       "specificationName": "On Sale",
       "visibleWhen": "True",
       "displayValue": "SPECIFICATION_NAME"
-    }
-  },
-  "cash-discount-summary": {
-    "props": {
-      "blockClass": "cash-discount",
-      "percentageNumber": 5,
-      "minimumPrice": 100,
-      "discountDescription": "a vista"
     }
   },
   "product-summary-sku-selector": {

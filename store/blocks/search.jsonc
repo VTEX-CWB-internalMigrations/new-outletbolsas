@@ -230,19 +230,10 @@
       "product-summary-name",
       // "product-summary-space",
       "product-summary-price",
-      "cash-discount-summary"
       // "product-summary-buy-button"
       // "product-summary-buy-button"
       //"rich-text#buyButtonShelf"
     ]    
-  },
-  "cash-discount-summary":{
-    "props":{
-      "blockClass":"cash-discount",
-      "percentageNumber":5,
-      "minimumPrice":100,
-      "discountDescription":"a vista"
-    }
   },
   "product-summary-sku-selector": {
     "props": {

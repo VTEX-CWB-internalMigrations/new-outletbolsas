@@ -132,14 +132,6 @@
       "blockClass":"productDetails-price"
     }
   },
-  "cash-discount":{
-    "props":{
-      "blockClass":"cash-discount",
-      "percentageNumber":5,
-      "minimumPrice":0,
-      "discountDescription":"no depósito"
-    }
-  },
 
   "flex-layout.row#buy-button": {
     "props": {

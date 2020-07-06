@@ -38,3 +38,9 @@
     font-size: 13px;
     margin: 0px 10px;
 }
+
+.styledLinkContent--institutional-footer-item{
+    color: #f1f1f1;
+    text-align: center;
+    display: block;
+}

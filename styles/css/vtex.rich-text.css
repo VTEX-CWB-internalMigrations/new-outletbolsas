@@ -20,7 +20,7 @@
 }
 .container--tip-content .paragraph{
   color: #d0d0d0;
-  font-size: .9em;
+  font-size: 13px;
   text-align: center;
   margin: 0 3em 1em;
 }
@@ -311,10 +311,21 @@
   background: #f1f1f1;
 }
 
+
 .container--title-intitutional{
   max-width: 1000px;
   margin: 0px auto;
   display: block;
+}
+
+.paragraph--footer-mobile{
+  text-align: center;
+  font-size: 13px;
+}
+
+.wrapper--footer-mobile{
+  margin: 0px auto;
+  color: #f1f1f1;
 }
 
 @media only screen and (min-width: 40em){

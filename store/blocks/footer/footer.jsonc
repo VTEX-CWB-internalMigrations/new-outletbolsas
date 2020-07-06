@@ -191,6 +191,7 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
+      "vtex.menu@2.x:menu#footer-mobile-example",
       "image#payments",
       "social-networks",
       "rich-text#footer-mobile"
@@ -202,10 +203,89 @@
       "rowGap": 4
     }
   },
+
+  "vtex.menu@2.x:menu#footer-mobile-example":{
+    "children":[
+      "menu-item#institutionalOne",
+      "menu-item#institutionalTwo",
+      "menu-item#institutionalThree",
+      "menu-item#institutionalFour"
+    ],
+    "props":{
+      "blockClass": "institutional-footer",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#institutionalOne":{
+    "props":{
+      "blockClass": "institutional-footer-item",
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/sobre-a-loja",
+          "noFollow": true,
+          "tagTitle": "Sobre a OutletBolsas",
+          "text": "Sobre a OutletBolsas"
+      }
+    }
+  },
+  "menu-item#institutionalTwo":{
+    "props":{
+      "blockClass": "institutional-footer-item",
+      "id": "menu-item-rules",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/regras-promoces",
+          "noFollow": true,
+          "tagTitle": "Regras Promoções",
+          "text": "Regras Promoções"
+      }
+    }
+  },
+  "menu-item#institutionalThree":{
+    "props":{
+      "blockClass": "institutional-footer-item",
+      "id": "menu-item-politics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/politica",
+          "noFollow": true,
+          "tagTitle": "Política",
+          "text": "Política"
+      }
+    }
+  },
+  "menu-item#institutionalFour":{
+    "props":{
+      "blockClass": "institutional-footer-item",
+      "id": "menu-item-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/trocas",
+          "noFollow": true,
+          "tagTitle": "Trocas e Devoluções",
+          "text": "Trocas e Devoluções"
+      }
+    }
+  },
+
   "rich-text#footer-mobile": {
     "props": {
       "text": "Copyright ® - Todos os direitos reservados.<br/>Brasil Tática - CNPJ:28.039.153/0001-61 Rua 24 de Maio, 1575 Loja - Rebouças - Curitiba - Paraná e CEP 80.220-060.",
-      "blockClass": "footer"
+      "blockClass": "footer-mobile"
     }
   }
 }

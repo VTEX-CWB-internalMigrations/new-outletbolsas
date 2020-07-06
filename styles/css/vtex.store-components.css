@@ -297,6 +297,12 @@
 .logoImage--logo-desktop{
     width: 150px !important;
 }
+
+.imageElement--paymentImage{
+  display: block;
+  margin: 0px auto;
+}
+
  @media only screen and (min-width: 40em){
   .label--content-newsletter{
     font-size: 1.75em;
@@ -306,5 +312,8 @@
     text-transform: lowercase;
   }
   .infoCardSubhead--info-card-featured{max-width:35em;}
-  
+  .imageElement--paymentImage{
+    display: block;
+    margin: inherit;
+  }
 }

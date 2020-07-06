@@ -79,26 +79,6 @@
       "maxWidth": "400px"
     }
   },
-  "minicart.v2": {
-    "blocks": [
-      "product-summary"
-    ],
-    "props": {
-      "variation": "drawer",
-      "drawerSlideDirection": "rightToLeft",
-      "showRemoveButton": true,
-      "showDiscount": true,
-      "showSku": true,
-      "labelMiniCartEmpty": "Carrinho vazio",
-      "labelButtonFinishShopping": "Ir para o checkout",
-      "iconLabel": "",
-      "showTotalItemsQty": true,
-      "enableQuantitySelector": true,
-      "maxQuantity": 10,
-      "labelClasses": "label-minicart tst-minicart",
-      "iconClasses": "miniCart-icon"
-    }
-  },
   // Mobile
   "header-layout.mobile": {
     "children": [

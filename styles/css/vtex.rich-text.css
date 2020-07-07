@@ -328,6 +328,10 @@
   color: #f1f1f1;
 }
 
+.paragraph--deals{
+  font-weight: 700;
+}
+
 @media only screen and (min-width: 40em){
   .container--link-regulation{
     text-align: center;

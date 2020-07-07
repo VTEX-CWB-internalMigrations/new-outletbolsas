@@ -33,3 +33,15 @@
 .productPriceClass{
     padding: 0 .5em;
 }
+
+.brandName{
+    font-weight: 700;
+}
+
+.sellingPrice{
+    font-size: 18px !important;
+}
+
+.imageContainer{
+    height: 300px;
+}

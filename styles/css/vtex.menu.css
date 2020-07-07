@@ -44,3 +44,7 @@
     text-align: center;
     display: block;
 }
+
+.styledLinkContent{
+    font-size: 13px;
+}

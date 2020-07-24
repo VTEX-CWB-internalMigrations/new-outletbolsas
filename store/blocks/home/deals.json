@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
-      "flex-layout.col#deals3"
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
     ],
     "props": {
       "blockClass": "deals"
@@ -49,7 +50,7 @@
   },
   "rich-text#deal4": {
     "props": {
-      "text": "![Compra segura](https://brasiltatica.vteximg.com.br/arquivos/lock.png 'Compra 100% segura') Compra 100% segura",
+      "text": "![Número do Whatsapp](https://outletbolsas.vteximg.com.br/arquivos/whatsappIcon3.png 'Ícone do Whatsapp')(41) 9993-0636",
       "blockClass": "deals"
     }
   }

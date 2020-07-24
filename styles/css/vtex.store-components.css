@@ -118,8 +118,7 @@
   background: #ff4c4c;
   padding: .5em;
   color: #fff;
-  font-size: .8em;
-  text-transform: lowercase;  
+  font-size: .8em; 
 }
 .listPriceValue{padding:0;font-size: .8em;font-style: italic;}
 .discountContainer{width:100%;}
@@ -143,8 +142,12 @@
   display: inline-block;
   margin: 0;
   font-size: 1.5em;
-  color: #ff2932;
 }
+
+.price_sellingPriceLabel--productDetails-price{
+  margin-right: 5px
+}
+
 .price_listPriceLabel--productDetails-price{
   display:none;
 }
@@ -302,8 +305,11 @@
   display: block;
   margin: 0px auto;
 }
+.productDescriptionText .content{
+  color: #000;
+}
 
- @media only screen and (min-width: 40em){
+@media only screen and (min-width: 40em){
   .label--content-newsletter{
     font-size: 1.75em;
     font-style: normal;
